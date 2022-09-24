@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Acquario2_0.Pesci">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgACIAAQAACAEACBAIAAACBEAAABAAAAAABBAAAA=</HashCode>
+      <FileName>Pesci.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Acquario2_0.PesceRosso">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>PesceRosso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Acquario2_0.PesceGatto">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>PesceGatto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Acquario2_0.PesceStrano">
+    <Position X="11.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>PesceStrano.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Acquario2_0.Acquario">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <AssociationLine Name="Depuratore" Type="Acquario2_0.Depuratore">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.787" Y="0.068" Height="0.182" Width="0.993" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ossigenatore" Type="Acquario2_0.ossigenatore">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.345" Y="0.098" Height="0.182" Width="1.024" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Pesce" Type="Acquario2_0.Pesci">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.829" Y="0.081" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AKAAhkAkgAAAACAAAAAAgAAAAAAAIAAAAAACAAEQAgA=</HashCode>
+      <FileName>Acquario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Depuratore" />
+      <Property Name="ossigenatore" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Pesce" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Acquario2_0.ossigenatore">
+    <Position X="0.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAICAAAAAAAAgAAAAAAAAAAAEAAAAAACA=</HashCode>
+      <FileName>ossigenatore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Acquario2_0.Depuratore">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAABACAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Depuratore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
